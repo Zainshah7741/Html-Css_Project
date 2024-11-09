@@ -1,0 +1,49 @@
+/* home */
+
+.content-home {
+    padding-left: 70px;
+}
+
+.content-home p {
+    padding: 10px 0 10px 0;
+    font-size: .9rem;
+}
+
+.content-home h1 {
+    font-size: 3rem;
+
+}
+
+.content-home button {
+    width: 100px;
+    padding: 8px;
+    margin: 15px 0;
+}
+
+.content-img img{
+    animation: ani 320s infinite;
+}
+
+/* about */
+
+.about {
+    width: 50%;
+    padding: 10px 0 0 10px;
+}
+
+.about h1 {
+    padding-left: 5px;
+    font-size: 2.5rem;
+}
+.about p{
+    padding: 10px
+}
+
+/* table */
+
+.table{
+    padding: 30px;
+}
+.table h1 {
+    font-size: 2rem;
+}

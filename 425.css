@@ -1,0 +1,70 @@
+/* HOme */
+
+#Home p {
+    font-size: .7rem;
+}
+
+.content-home h1 {
+    font-size: 2rem;
+}
+
+/* Service */
+#detail p {
+    font-size: .7rem;
+}
+
+#detail h2 {
+    font-size: 1rem;
+}
+
+/* about */
+#about p {
+    font-size: .7rem;
+}
+
+.about-2 h1 {
+    font-size: 1.5rem;
+}
+
+.about-2 h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.about-2 h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.about-2 {
+    flex-direction: column;
+}
+
+/* Menu */
+#container-2{
+    grid-template-columns: repeat(1, 1fr);
+}
+#menu p {
+    font-size: .7rem;
+}
+
+.first h1 {
+    font-size: 1.3rem;
+}
+
+.menu {
+    flex-direction: column;
+}
+
+.menu h1 {
+
+    font-size: 1rem;
+}
+.second h3{
+    font-size: 1rem;
+}
+
+/* Chef */
+.team h1{
+    font-size: 1rem;
+}

@@ -1,0 +1,154 @@
+/* navbar */
+#nav {
+    position: sticky;
+    top: 0;
+}
+
+.icon {
+    display: none;
+}
+
+#nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 45px;
+    z-index: -1;
+    width: 100%;
+    background-color: black;
+    opacity: .80;
+}
+
+#nav h1 {
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+#new button {
+    display: none;
+}
+
+.checkbtn {
+    display: block;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+
+#new img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+}
+
+#new ul {
+    position: fixed;
+    top: 45px;
+    right: -100%;
+    flex-direction: column;
+    align-items: center;
+    line-height: 28px;
+    width: 220px;
+    height: 290px;
+    border-left: 1px solid;
+    z-index: 2;
+    transition: all 1s;
+}
+
+#new ul::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: .80;
+}
+
+#nav ul a:hover,
+#nav ul a#anch {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#check:checked~ul {
+    right: 0;
+}
+#nav ul a#anch:checked{
+  color: blueviolet ;
+}
+/* Home */
+
+#Home{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-home{
+    width: 80%;
+    padding: 0;
+}
+.content-home button{
+    text-align: center;
+    align-self: center;
+    margin: 5px auto
+}
+.content-home h1 , .content-home p{
+    text-align: center;
+}
+.content-img{
+    width: 80%;
+}
+
+.content-img img {
+    width: 55%;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* About */
+
+#about{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about button{
+    align-self: center;
+}
+
+
+/* Menu */
+
+.menu{
+    flex-direction: column;
+    border: none;
+}
+.first h1{
+    font-size: 2rem;
+}
+.menu p{
+    font-size: .8rem;
+}
+#container-2{
+    grid-template-columns: repeat(2, 1fr);
+}
+/* book */
+.image{
+    display: none;
+}
+.table{
+    width: 100%;
+}
+/* Chefs */
+
+.chef{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
